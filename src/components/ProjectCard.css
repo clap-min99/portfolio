@@ -1,0 +1,94 @@
+.carousel-card {
+  flex: 0 0 100%;
+  padding: 1.5rem;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+  text-align: left;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.project-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.2rem;
+}
+
+.project-icon {
+  font-size: 1.8rem;
+}
+
+.project-body {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-top: 0.1rem;
+  flex-wrap: wrap;
+}
+
+.project-video {
+  flex: 1 1 50%;
+  max-width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.project-video video {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.project-info {
+  flex: 1 1 50%;
+  min-width: 280px;
+}
+
+.project-desc {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.project-role {
+  font-size: 0.9rem;
+  color: #444;
+  margin-bottom: 0.8rem;
+}
+
+.tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+.tech {
+  background-color: #e0e7ff;
+  color: #1e3a8a;
+  font-size: 0.75rem;
+  padding: 0.3rem 0.6rem;
+  border-radius: 999px;
+}
+
+.project-detail {
+  font-size: 0.85rem;
+  line-height: 1.5;
+  white-space: pre-line;
+  color: #555;
+}
+
+.project-link {
+  display: inline-block;
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  color: #1d4ed8;
+  text-decoration: underline;
+}

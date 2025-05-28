@@ -1,0 +1,24 @@
+.dot-nav {
+  position: fixed;
+  top: 50%;
+  right: 30px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  z-index: 999;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #bbb;
+  transition: background-color 0.3s, transform 0.3s;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #333;
+  transform: scale(1.3);
+}

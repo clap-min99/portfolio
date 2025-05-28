@@ -1,0 +1,154 @@
+/* ModernProjectSection CSS */
+
+.modern-project-section {
+  background-color: #0f1a2a;
+  color: #e2e8f0;
+  font-family: 'Pretendard';
+  height: 100vh;
+  overflow: hidden;
+}
+
+.project-tabs {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  /* margin-bottom: 1rem; */
+  margin-top: 2.5%;
+  margin-right: 2%;
+}
+
+.tab-button {
+  background: none;
+  border: 1px solid #94a3b8;
+  color: #94a3b8;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  font-weight: 500;
+
+}
+
+.tab-button.active {
+  background-color: #38bdf8;
+  color: #0f172a;
+  border-color: transparent;
+}
+
+.project-content-layout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.project-left {
+  flex: 1 1 480px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-left: 5%;
+}
+
+.project-summary {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.project-description-box {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+}
+
+.project-subtitle {
+  color: #38bdf8;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.project-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+
+}
+
+.project-period {
+  font-size: 0.9rem;
+  color: #cbd5e1;
+  margin-bottom: 0;
+}
+
+.project-people {
+font-size: 0.9rem;
+margin-top: 0;
+
+}
+
+.project-description {
+  background-color: rgba(255, 255, 255, 0.05); /* 어두운 배경 위에서 살짝 밝게 */
+  padding: 1.1rem 1.7rem;
+  border-radius: 12px;
+  font-size: 0.95rem;
+  color: #e5e7eb;
+  line-height: 1.8;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  white-space: pre-line; /* 줄바꿈 유지 */
+}
+
+.project-des {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tech-tag {
+  background-color: #334155;
+  color: #bae6fd;
+  padding: 0.4rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+}
+
+.project-links {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.9rem;
+
+}
+
+.project-links a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+
+.project-right {
+  flex: 1 1 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-top: 13%;
+  margin-right: 4%;
+}
+
+.project-image,
+.project-right video {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 8px;
+  /* object-fit: contain; */
+
+}
+
