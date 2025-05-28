@@ -1,7 +1,4 @@
 // src/data/projectsData.js
-import maraebaVideo from '../assets/videos/마래바.mp4';
-import zeepseek from '../assets/videos/zeepseek.mp4'
-import daldidan from '../assets/videos/달디단.mp4'
 
 export const projects = [
   {
@@ -23,7 +20,7 @@ export const projects = [
 - 발음 결과 저장, 피드백 요청 등 주요 API 연동
 - 비동기 흐름에 대한 예외 처리 및 상태 반영 로직 구현
 `,
-    video: maraebaVideo,
+    video: '/assets/videos/마래바.mp4',
   },
   {
     icon: '🏠',
@@ -44,7 +41,7 @@ export const projects = [
 3. API 연동 및 로직 개선
 - 기존 동별 조회 API를 search API로 통합하여 UX 개선
 - 지도 이동/검색/클릭 등에 따라 실시간 결과 반영되도록 비동기 흐름 구성`,
-    video: zeepseek,
+    video: '/assets/videos/zeepseek.mp4',
   },
   {
     icon: '🍎',
@@ -66,7 +63,7 @@ export const projects = [
 3. 모델 좌표 보정 및 성능 최적화
 - 1920x1080 해상도 대비 모델 입력(320x320)에 대한 비율 보정 + 회전 보정
 - Frame Processor + GPU Delegate 기반 최적화된 Android 추론 구조 구성`,
-    video: daldidan,
+    video: '/assets/videos/달디단.mp4',
   },
 ];
 
