@@ -2,7 +2,7 @@
 import './DotNavigation.css';
 
 export default function DotNavigation({ activeIndex, onDotClick }) {
-  const sections = ['Home', 'About', 'Project', 'Contact'];
+  const sections = ['Home', 'About', 'Awards', 'Project', 'Contact'];
 
   return (
     <div className="dot-nav">

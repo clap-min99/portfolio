@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(to bottom right, #f7f7f7, #e0ffe4);
+  background: linear-gradient(to bottom right, #f7f7f7, #e0f4ff);
   overflow: hidden;
   font-family: Pretendard;
 }

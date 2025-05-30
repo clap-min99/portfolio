@@ -2,9 +2,11 @@ import ReactFullpage from '@fullpage/react-fullpage';
 
 import HeroSection from './components/HeroSection';
 import AboutSection from './components/AboutSection';
+import AwardsSection from './components/AwardsSection';
 import ProjectSection from './components/ProjectSection';
 import ModernProjectSection from './components/ModernProjectSection';
 import ContactSection from './components/ContactSection';
+
 
 import DotNavigation from './components/Navigation/DotNavigation';
 import { useState, useRef } from 'react';
@@ -24,7 +26,7 @@ function App() {
       <ReactFullpage
         licenseKey={'OPEN-SOURCE-GPLV3-LICENSE'}
         scrollingSpeed={800}
-        anchors={['home', 'about', 'modernproject', 'contact']}
+        anchors={['home', 'about', 'awards', 'modernproject', 'contact']}
         navigation={false}
         onLeave={(origin, destination) => {
           setActiveSection(destination.index);
@@ -38,6 +40,7 @@ function App() {
             <div id="fullpage-wrapper">
               <div className="section"><HeroSection /></div>
               <div className="section"><AboutSection /></div>
+              <div className="section"><AwardsSection /></div>
               <div className="section"><ModernProjectSection /></div>
               <div className="section"><ContactSection /></div>
             </div>
