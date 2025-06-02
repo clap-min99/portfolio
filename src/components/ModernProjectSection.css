@@ -13,7 +13,7 @@
   justify-content: flex-end;
   gap: 1rem;
   /* margin-bottom: 1rem; */
-  margin-top: 2.5%;
+  margin-top: 2%;
   margin-right: 2%;
 }
 
@@ -73,13 +73,18 @@
   font-size: 2rem;
   font-weight: bold;
   margin: 0;
-
 }
 
 .project-period {
   font-size: 0.9rem;
   color: #cbd5e1;
-  margin-bottom: 0;
+  margin: 0;
+}
+
+.project-population {
+   font-size: 0.9rem;
+  color: #cbd5e1;
+  margin: 0;
 }
 
 .project-people {
@@ -94,15 +99,15 @@ margin-top: 0;
   border-radius: 12px;
   font-size: 0.95rem;
   color: #e5e7eb;
-  line-height: 1.8;
+  line-height: 1.6;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   white-space: pre-line; /* 줄바꿈 유지 */
 }
 
 .project-des {
     font-size: 1.2rem;
-    margin-bottom: 0;
-    margin-top: 0;
+    margin: 0;
+    /* margin-top: 0; */
 }
 
 .tech-list {

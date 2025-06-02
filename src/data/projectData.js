@@ -4,7 +4,8 @@ export const projects = [
   {
     icon: '🥰 ',
     title: '마래바',
-    period: '2025.01-2025.02(7주), 참여인원: 6명(FE2, BE4)',
+    period: '2025.01-2025.02(7주)',
+    people: '6명(FE2, BE4)', 
     desc: '청각장애 아동을 위한 음성 AI 기반 구화 연습 서비스',
     role: '프론트엔드 개발 (WebRTC 기반 화상 기능, 게임 UI 설계)',
     tech: ['React', 'WebRTC', 'Redux'],
@@ -25,7 +26,8 @@ export const projects = [
   {
     icon: '🏠',
     title: 'Zeepseek',
-    period: '2025.02-2025.04(7주),  참여인원: 6명(FE3, BE3)',
+    period: '2025.02-2025.04(7주)',
+    people: '6명(FE3, BE3)', 
     desc: '부동산 매물 추천 웹 서비스',
     role: '프론트엔드 개발 (매물 시각화, 상태관리, 검색 기능 구현)',
     tech: ['React', 'Redux', 'Kakao Map API'],
@@ -46,14 +48,14 @@ export const projects = [
   {
     icon: '🍎',
     title: '🍎 달디단',
-    period: '2025.04-2025.05(7주),  참여인원: 6명(FE4, BE2)',
+    period: '2025.04-2025.05(7주)',
+    people: '6명(FE4, BE2)', 
     desc: '사과 당도 예측 앱',
     role: '카메라 연동, 실시간 추론 구현, 전체 UX 설계, 당도추론 AI개발',
     tech: ['YOLOv8', 'TFLite', 'React Native', 'VisionCamera', 'XGBoost'],
     detail: `1. 실시간 추론 및 촬영
 - VisionCamera를 통한 프레임 수집 및 객체 탐지
 - YOLOv8 + TFLite 모델 기반 실시간 추론 파이프라인 구성
-- TTL + objectStates 기반 사과 ID 추적 및 안정적 감지 유지
 
 2. UX 개선 및 화면 구성
 - 감성 애니메이션 기반 3초 카운트다운 자동 촬영 UX 구성

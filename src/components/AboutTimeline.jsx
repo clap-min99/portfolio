@@ -5,9 +5,8 @@ import './AboutTimeline.css';
 
 export default function AboutTimeline() {
   const steps = [
-    { year: '2018.03', text: '경북대학교 신소재공학부 입학' },
-    { year: '2023.02', text: '경북대학교 신소재공학부 졸업' },
-    { year: '2024.07', text: 'SSAFY 입과' },
+    { year: '2023.02', text: '🎓 경북대학교 신소재공학부 졸업' },
+    { year: '2024.07~', text: 'SSAFY 12기 입과' },
   ];
 
 

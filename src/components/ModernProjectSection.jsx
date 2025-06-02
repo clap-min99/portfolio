@@ -31,6 +31,7 @@ export default function ModernProjectSection() {
           <h2 className="project-title">{current.title}</h2>
           <p className='project-des'>{current.desc}</p>
           <p className="project-period">기간: {current.period}</p>
+          <p className='project-population'>참여인원: {current.people} </p>
           <p className="project-people">역할: {current.role} </p>
           
           
